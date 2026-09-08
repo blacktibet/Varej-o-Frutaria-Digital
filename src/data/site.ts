@@ -2,19 +2,14 @@ import heroFruits from "@/assets/hero-1.jpg";
 import heroFamily from "@/assets/hero-2.jpg";
 import flyer1 from "@/assets/flyer-1-cover.jpg";
 import flyer2 from "@/assets/flyer-2-cover.jpg";
-import flyer3 from "@/assets/flyer-3-cover.jpg";
-import flyer4 from "@/assets/flyer-4-cover.jpg";
 import page1 from "@/assets/flyer-page-1.jpg";
-import page2 from "@/assets/flyer-page-2.jpg";
 import page3 from "@/assets/flyer-page-3.jpg";
-import page4 from "@/assets/flyer-page-4.jpg";
 import page5 from "@/assets/flyer-page-5.jpg";
 import store1a from "@/assets/store-1a.jpg";
 import store1b from "@/assets/store-1b.jpg";
 import store2a from "@/assets/store-2a.jpg";
 import store2b from "@/assets/store-2b.jpg";
 import store3a from "@/assets/store-3a.jpg";
-import store3b from "@/assets/store-3b.jpg";
 
 /**
  * Dados fictícios da primeira versão.
@@ -67,7 +62,7 @@ export const flyers: Flyer[] = [
     cover: flyer1,
     startDate: "2026-09-01",
     endDate: "2026-09-07",
-    pages: [flyer1, page1, page2, page3, page4, page5],
+    pages: [flyer1, page1, page3, page5],
   },
   {
     id: "festival-das-frutas",
@@ -76,22 +71,6 @@ export const flyers: Flyer[] = [
     startDate: "2026-09-03",
     endDate: "2026-09-12",
     pages: [flyer2, page1, page3, page5],
-  },
-  {
-    id: "especial-do-hortifruti",
-    name: "Especial do Hortifruti",
-    cover: flyer3,
-    startDate: "2026-09-05",
-    endDate: "2026-09-20",
-    pages: [flyer3, page1, page4, page5],
-  },
-  {
-    id: "ofertas-de-fim-de-semana",
-    name: "Ofertas de Fim de Semana",
-    cover: flyer4,
-    startDate: "2026-08-25",
-    endDate: "2026-08-31",
-    pages: [flyer4, page2, page3, page4],
   },
 ];
 
@@ -134,21 +113,6 @@ export const stores: Store[] = [
     images: [
       { src: store2a, alt: "Fachada da Loja São Gonçalo" },
       { src: store3a, alt: "Interior da Loja São Gonçalo" },
-    ],
-  },
-  {
-    id: "nova-porteirinha",
-    name: "Loja Nova Porteirinha",
-    address: "Rua das Frutas, 250 — Centro",
-    city: "Nova Porteirinha - MG",
-    phone: "(38) 0000-0002",
-    hours: "Seg a Sáb: 7h às 19h · Dom: fechado",
-    mapsUrl:
-      "https://www.google.com/maps/search/?api=1&query=Rua+das+Frutas+250+Centro+Nova+Porteirinha+MG",
-    images: [
-      { src: store3b, alt: "Fachada da Loja Nova Porteirinha" },
-      { src: store1b, alt: "Setor de frutas da Loja Nova Porteirinha" },
-      { src: store3a, alt: "Mercearia da Loja Nova Porteirinha" },
     ],
   },
 ];
